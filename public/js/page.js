@@ -1,6 +1,5 @@
 const page = (page = 1) => {
-  const url = `http://localhost:1013/api/pokemons/page/${page}`
-  const URL = `${heroku}/api/pokemons/page/${page}`
+  const URL = `https://rsh-poke-api.herokuapp.com/api/pokemons/page/${page}`
   const heroku = "https://rsh-poke-api.herokuapp.com"
   fetch(URL)
     .then((data) => data.json())

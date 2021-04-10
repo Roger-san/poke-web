@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 
-const PORT = process.env.PORT || 1010
+const PORT = process.env.PORT || 1011
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*") // authorized headers for preflight requests

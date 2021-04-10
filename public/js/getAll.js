@@ -1,5 +1,4 @@
-const URL = `${heroku}/api/pokemons`
-const heroku = "https://rsh-poke-api.herokuapp.com"
+const URL = `https://rsh-poke-api.herokuapp.com/api/pokemons`
 const getAll = () => {
   fetch(URL)
     .then((data) => data.json())
